@@ -1,4 +1,20 @@
 1. What happens when you initialize a repository? Why do you need to do it?
 	It creates a .git file, which tracks the metadata of the file. You need to do it if you want the repository to be tracked with git, which is required if you want to create any commits. 
+
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 	Staging area is an intermediate area between working directory and repository. It allows you to add only files that you want to bundle inside a commit, and not everything inside the repository. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+	You can use the staging area as a preview for the commit you are about to make. If there are things that are not part of the logical change, or if there are things that haven't been added, you can still make changes without making a formal commit.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches allow you to make a history of changes if you are trying to develope one idea that is seperate from the master branch. That is, if you want to develop different versions of a program and keep trach of these different versions seperately. 
+
+5. How do diagrams help you visulalize the brach structure?
+	You can view diagrams through the command "git log --graph." This helps you see where the branch you are working on is in relation to the master branch and other branches specified in the command. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?	
+	You combine the changes in the branches. By comparing with a common parent, Git is able to determine if additions/deletions were purposeful and choose wether to follow or reject certain changes. When there is a conflict (such as two different additions in the same place), merge may fail. 
+
+7. What are teh pros and cons of Git's automatic merging vs always doing merges manually?
+	Automatic merging allows you to cobine files more easily, but manual gives more control over instances where conflicts occur between branches. 
