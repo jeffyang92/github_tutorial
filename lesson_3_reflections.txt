@@ -2,3 +2,5 @@ When would you want to use a remote repository rather than keeping all your work
   Remote repositories are useful for working at different locations or for collaborating with others. 
   It allows work to be done on separate computers and then become compiled together. 
   
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  Similar to making commits manually, pushing and pulling manually are good ways to ensure that you only sync files when you are ready to sync, so you don't lose data or write in data before you are ready.
