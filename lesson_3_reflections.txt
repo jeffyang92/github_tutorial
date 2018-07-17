@@ -1,12 +1,15 @@
 When would you want to use a remote repository rather than keeping all your work local?
-  Remote repositories are useful for working at different locations or for collaborating with others. 
+   Remote repositories are useful for working at different locations or for collaborating with others. 
   It allows work to be done on separate computers and then become compiled together. 
   
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-  Similar to making commits manually, pushing and pulling manually are good ways to ensure that you only sync files when you are ready to sync, so you don't lose data or write in data before you are ready.
+   Similar to making commits manually, pushing and pulling manually are good ways to ensure that you only sync files when you are ready to sync, so you don't lose data or write in data before you are ready.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
-  Forks are like clones on github, where you branch a repository off a different repository, which may or may not belong to someone else. Clones are when you copy the repository locally. Branching is when you want to go in a different direction while preserving the master branch. You use forks when you are using Github, clones locally, and branches may be done either way. 
+   Forks are like clones on github, where you branch a repository off a different repository, which may or may not belong to someone else. Clones are when you copy the repository locally. Branching is when you want to go in a different direction while preserving the master branch. You use forks when you are using Github, clones locally, and branches may be done either way. 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-  This allows you to work on merging or to keep it as a reference in case you lose internet connection.  
+   This allows you to work on merging or to keep it as a reference in case you lose internet connection. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+   It would be easier to collaborate with more people because GitHub has a learning curve before you can use it effectively. However, it would be harder to track changes and merge things because these are functionalities that come with Git.
